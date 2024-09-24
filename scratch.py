@@ -13,4 +13,4 @@ def promptStringFromFiles(base_string_file_path, file1_path , file2_path  ):
 #result = insert_strings(base_string, 'prompts/essay.txt', "prompts/rubric.txt")
 #result = promptStringFromFiles('prompts/prompt1.txt', 'prompts/essay.txt', "prompts/rubric.txt")
 
-print(result)
+#print(result)
