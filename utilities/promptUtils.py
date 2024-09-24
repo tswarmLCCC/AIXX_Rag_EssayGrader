@@ -6,11 +6,5 @@ def promptStringFromFiles(base_string_file_path, file1_path , file2_path  ):
     
     result = base_string.format(string1, string2)
     return result
-
 # Example usage:
-
-
-#result = insert_strings(base_string, 'prompts/essay.txt', "prompts/rubric.txt")
 #result = promptStringFromFiles('prompts/prompt1.txt', 'prompts/essay.txt', "prompts/rubric.txt")
-
-print(result)

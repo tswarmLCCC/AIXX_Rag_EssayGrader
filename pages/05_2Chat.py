@@ -2,6 +2,8 @@ import ollama
 import streamlit as st
 from openai import OpenAI
 from utilities.icon import page_icon
+from utilities.promptUtils import promptStringFromFiles
+
 
 st.set_page_config(
     page_title="Chat playground 2",
@@ -60,7 +62,10 @@ def main():
         with message_container.chat_message(message["role"], avatar=avatar):
             st.markdown(message["content"])
 
-    if prompt := st.chat_input("Enter a prompt here..."):
+    promptString = promptStringFromFiles('prompts/prompt1.txt', 'prompts/essay.txt', "prompts/rubric.txt")
+    #promptString = "Enter a prompt here..."
+
+    if prompt := st.chat_input(promptString):
         try:
             st.session_state.messages.append(
                 {"role": "user", "content": prompt})
