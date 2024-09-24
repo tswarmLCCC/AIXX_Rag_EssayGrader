@@ -1,13 +1,21 @@
 # AIXX_Rag_EssayGrader
-# take a look at https://github.com/n8n-io/self-hosted-ai-starter-kit
-Original 
+
+Based heavily from the code originally found at https://github.com/n8n-io/self-hosted-ai-starter-kit
+(https://github.com/tonykipkemboi/ollama_streamlit_demos.git)
+
+Some useful commands
+
+## Setup
+
 ```bash
-git clone https://github.com/tonykipkemboi/ollama_streamlit_demos.git
+git clone https://github.com/tswarmLCCC/AIXX_Rag_EssayGrader.git
 ```
 
 ```bash
-cd ollama_streamlit_demos
+cd AIXX_Rag_EssayGrader
 ```
+
+This runs well on Python 3.9
 
 ```bash
 pip install -r requirements.txt

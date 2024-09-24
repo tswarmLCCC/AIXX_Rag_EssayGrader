@@ -1,3 +1,13 @@
+def insert_strings(base_string, file1_path , file2_path  ):
+    with open(file1_path, 'r') as file1, open(file2_path, 'r') as file2:
+        string1 = file1.read().strip()
+        string2 = file2.read().strip()
+    
+    result = base_string.format(string1, string2)
+    return result
+
+# Example usage:
+base_string = '''
 
 Prompt:
 
@@ -5,8 +15,8 @@ Evaluate the following student essay against the provided rubric.
 
 Inputs:
 
-Student Essay: [Insert the full text of the student's essay here]
-Rubric: [Insert the rubric criteria and scoring guidelines here]
+Student Essay: {}
+Rubric: {}
 
 Task:
 
@@ -23,5 +33,8 @@ Weaknesses: The essay could be strengthened by providing more in-depth analysis 
 
 
 Note: To ensure accurate and helpful feedback, it is important to provide a comprehensive rubric that clearly outlines the expectations for the essay. The LLM can then use the rubric as a guide to evaluate the student's work.
-
  
+'''
+
+result = insert_strings(base_string, 'prompts/essay.txt', "prompts/rubric.txt")
+print(result)
