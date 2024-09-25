@@ -22,7 +22,10 @@ rubricInput = st.text_area("Rubric", getStringFromFile("prompts/rubric.txt"))
 basePrompt = getStringFromFile("prompts/prompt1.txt")
 testPrompt = promptStringFromStrings(basePrompt, essayInput, rubricInput)
 
+agree = st.checkbox("Retain History")
 
+if not agree:
+    st.session_state.messages = []
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -31,12 +34,12 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
+subButton  = st.button("Submit Student Essay", type="primary")
 
-
-if prompt := st.chat_input("What is up?"):
-    st.session_state.messages.append({"role": "user", "content": prompt  + " " + testPrompt})
+if subButton:
+    st.session_state.messages.append({"role": "user", "content": " " + testPrompt})
     with st.chat_message("user"):
-        st.markdown(prompt + " " + testPrompt)
+        st.markdown(" " + testPrompt)
 
     with st.chat_message("assistant"):
         with st.spinner("model working..."):

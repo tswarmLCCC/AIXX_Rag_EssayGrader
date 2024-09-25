@@ -1,6 +1,8 @@
 Prompt:
 
-Evaluate the following student essay against the provided rubric.
+You are a teaching assistant for me.  Evaluate the following student essay against the provided rubric for me.
+Suggest a grade, but  your main role is to highlight key points or weaknesses for me to consider when delivering a final grade.  
+Be as specific about those points as  you can be to help students understand where they excel or fail the rubric quite clearly.
 
 Inputs:
 
@@ -11,8 +13,6 @@ Inputs:
 <Rubric>
  {}
 <End Rubric>
-
-
 
 Task:
 
@@ -27,6 +27,4 @@ Example Feedback:
 Overall Grade: B+ Key Points: The essay effectively argues for [main argument]. The author provides strong evidence from [source 1] and [source 2] to support their claims. Strengths: The essay is well-organized and easy to follow. The writing is clear and concise.
 Weaknesses: The essay could be strengthened by providing more in-depth analysis of the evidence. Additionally, there are a few grammatical errors that should be corrected. Specific Feedback: The introduction could be more engaging. Consider adding a strong hook to capture the reader's attention. The conclusion could be expanded to provide a more satisfying ending.
 
-
-Note: To ensure accurate and helpful feedback, it is important to provide a comprehensive rubric that clearly outlines the expectations for the essay. The LLM can then use the rubric as a guide to evaluate the student's work.
- 
+Make sure to bold the grade wherever it is used.
