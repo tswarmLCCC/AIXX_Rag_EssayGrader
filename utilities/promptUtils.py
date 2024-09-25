@@ -8,3 +8,12 @@ def promptStringFromFiles(base_string_file_path, file1_path , file2_path  ):
     return result
 # Example usage:
 #result = promptStringFromFiles('prompts/prompt1.txt', 'prompts/essay.txt', "prompts/rubric.txt")
+
+def getStringFromFile(file_path):
+    with  open(file_path, 'r') as file:
+        string = file.read().strip()
+    return string
+
+def promptStringFromStrings(base_string, string1, string2):
+    result = base_string.format(string1, string2)
+    return result

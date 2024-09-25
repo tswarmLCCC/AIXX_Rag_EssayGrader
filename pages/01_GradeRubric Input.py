@@ -3,7 +3,7 @@ import streamlit as st
 import ollama
 from time import sleep
 from utilities.icon import page_icon
-from utilities.promptUtils import promptStringFromFiles
+from utilities.promptUtils import promptStringFromFiles, promptStringFromStrings, getStringFromFile
 from openai import OpenAI
 
 client = OpenAI(
@@ -16,8 +16,12 @@ st.title("ChatGPT-like clone")
 testPrompt =  promptStringFromFiles('prompts/prompt1.txt', 'prompts/essay.txt', "prompts/rubric.txt")
 
 
-essayInput = st.text_area("Student Essay", "")
-rubricInput = st.text_area("Rubric", "")
+essayInput = st.text_area("Student Essay", getStringFromFile("prompts/essay.txt"))
+rubricInput = st.text_area("Rubric", getStringFromFile("prompts/rubric.txt"))
+
+basePrompt = getStringFromFile("prompts/prompt1.txt")
+testPrompt = promptStringFromStrings(basePrompt, essayInput, rubricInput)
+
 
 
 if "messages" not in st.session_state:
