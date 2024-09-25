@@ -30,6 +30,11 @@ streamlit run 01_Chat.py
 ```
 
 Or from a VM:
+```bash
+c:\Python\Python39\python.exe -m venv c:\env\streamlit_rag
+C:\env\streamlit_rag\Scripts\Activate.ps1
+pip install-r requirements.txt
+```
 
 ```bash
 PS C:\dev\StreamLit Rag> C:\env\streamlit_rag\Scripts\Activate.ps1

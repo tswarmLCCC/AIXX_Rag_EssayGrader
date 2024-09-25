@@ -4,8 +4,15 @@ Evaluate the following student essay against the provided rubric.
 
 Inputs:
 
-Student Essay: {}
-Rubric: {}
+<Student Essay>
+ {}
+<End Student Essay>
+
+<Rubric>
+ {}
+<End Rubric>
+
+
 
 Task:
 
