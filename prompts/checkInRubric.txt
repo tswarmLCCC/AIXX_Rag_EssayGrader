@@ -1,0 +1,19 @@
+
+
+<their assignment>
+    This week we will use what we have learned so far and start to work on the shell program of the the final project for this course.
+
+    Open the final project description page and read through the requirements.  Please note that there are additional resources available in that module if some of the nuances of the project are not clear!
+    Reflect on what you've learned and work on a plan to build this project.  Please note that your plan does not have to be 'correct' at this point.  We are using this check in to self explore and work together to refine our design well in advance of the final.  Feel free to write some (or all) of the code for the final if you'd like.  Consider this a bit of a 'free week' to work on the final (aside from the paper you'll turn in). 
+    We are looking for the following parts of the final at this point:
+    Setting up the loop that will iterate over the number of days.
+    Setting up the means to which we will implement using random number generation (RNG) to supply the stochastic elements of our Monte Carlo Simulation.  This deliverable might be tough to get your head around at this point in the course.  Please let me know if that is the case and we can go over some thoughts!
+    Simple program to demonstrate these elements and turn it in by the due date of this final check in week.
+    A sort paper by the end of the week describing your thoughts, design, and process in designing your final to this point.  I'll use this to provide feedback about your program.  Submit that paper (no more than 2 pages) to this assignment.  
+    As questions arise and are answered as a class, I'll provide additional resources here and in the final module for reference.
+</their assignment>
+<what I want>
+I want to see a loop that iterates over the number of days. 
+I also want to see some way to keep track of monitors, demand, and a mechanism to account for monitors arriving at a later </date>
+Some mention of research into the nature of Simulation and Monte Carlo Simulation would be nice.
+</what I want>

@@ -6,6 +6,11 @@ from utilities.icon import page_icon
 from utilities.promptUtils import promptStringFromFiles, promptStringFromStrings, getStringFromFile
 from openai import OpenAI
 
+BASE_PROMPT = 'prompts/programmingPrompt.txt'
+ESSAY_PROMPT =  'prompts/essay.txt'
+RUBRIC_PROMPT = "prompts/checkInRubric.txt"
+
+
 client = OpenAI(
     base_url="http://localhost:11434/v1",
     api_key="ollama",  # required, but unused
@@ -13,13 +18,13 @@ client = OpenAI(
 selected_model = "Llama3.1:latest"
 
 st.title("ChatGPT-like clone")
-testPrompt =  promptStringFromFiles('prompts/prompt1.txt', 'prompts/essay.txt', "prompts/rubric.txt")
+testPrompt =  promptStringFromFiles(BASE_PROMPT,ESSAY_PROMPT,RUBRIC_PROMPT)
 
 
-essayInput = st.text_area("Student Essay", getStringFromFile("prompts/essay.txt"))
-rubricInput = st.text_area("Rubric", getStringFromFile("prompts/rubric.txt"))
+essayInput = st.text_area("Student Essay", getStringFromFile(ESSAY_PROMPT))
+rubricInput = st.text_area("Rubric", getStringFromFile(RUBRIC_PROMPT))
 
-basePrompt = getStringFromFile("prompts/prompt1.txt")
+basePrompt = getStringFromFile(BASE_PROMPT)
 testPrompt = promptStringFromStrings(basePrompt, essayInput, rubricInput)
 
 agree = st.checkbox("Retain History")

@@ -1,0 +1,26 @@
+Prompt:
+
+You are a teaching assistant for me.  Evaluate the following student essay against the provided rubric for me.
+I will provide a list of what I'd like to see.
+
+Inputs:
+
+<Student Essay>
+ {}
+<End Student Essay>
+
+<Rubric>
+ {}
+<End Rubric>
+
+Task:
+
+Highlight the lack or presence of what I would like to see in the student work.
+Be as specific about those points as  you can be to help students understand where they excel or fail the rubric quite clearly.
+This is a programming assignment - provide feedback to the student whether they are doing what I'm looking for in the assignment and rubric first and foremost.
+
+Strengths: Highlight the strengths of the essay, such as a clear plan and the key points I gave
+Weaknesses: Identify areas where the essay could be improved.
+Specific Feedback: Provide specific feedback on the essay, addressing both the strengths and weaknesses identified.
+
+
