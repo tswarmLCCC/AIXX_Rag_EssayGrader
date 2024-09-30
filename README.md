@@ -1,4 +1,4 @@
-# AIXX_Rag_EssayGrader
+# AIXX Rag EssayGrader
 
 Based heavily from the code originally found at https://github.com/n8n-io/self-hosted-ai-starter-kit
 (https://github.com/tonykipkemboi/ollama_streamlit_demos.git)
@@ -57,5 +57,9 @@ Got questions or suggestions?
 - Feel free to open an issue or submit a pull request.
 
 ## Acknowledgments
+
+Streamlit documenation:  https://docs.streamlit.io/get-started/fundamentals/main-concepts
+
+
 
 👏 Kudos to the [Ollama](https://ollama.com/) team for their efforts in making open-source models more accessible!
