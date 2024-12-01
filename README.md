@@ -59,3 +59,7 @@ Got questions or suggestions?
 ## Acknowledgments
 
 👏 Kudos to the [Ollama](https://ollama.com/) team for their efforts in making open-source models more accessible!
+
+Canvas quiz generation was shared by LCCC's CET team (thanks Josh), and is avaialble at https://www.youtube.com/watch?v=7mPVYs3Jp3s&list=PLbcnCOX6ElAbQfcSeJ6EpaEOy03PvqDv7&index=16
+
+The CSV to QTI tool is available at https://canconvert.k-state.edu/qti/
