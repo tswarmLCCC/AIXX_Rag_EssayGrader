@@ -1,0 +1,1 @@
+Project to look at:  https://github.com/mobarski/ask-my-pdf/blob/main/src/ai.py
