@@ -1,0 +1,11 @@
+Create ten random multiple-choice, multiple response and true/faslse questions worth 1 point each.
+The topic should be on the psychological principals of sensation and perception for an intro psychology college course.
+
+Format the quiz into a table with the following format:
+Column A is the type of question: MC (multiple choice), MR (multiple response) and TF (true/false)
+Column B is not used but must be there.
+Column C is the point value of the questions.
+Column D is the question body.
+Column E is the correct answer.  The numbers 1-5 each correspond to one of the possible answers in columns F-J. Use 1 to indicate a, 2 to indicate b, 3 to indicate c, 4 to indicate d, 5 to indicate e.  For true/false questions, 1 is true and 0 is value.
+Clear any unused cells.  
+All questions and answers must be accurate and not fabricated.
