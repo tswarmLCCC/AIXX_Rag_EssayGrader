@@ -1,1 +1,1 @@
-Write a prompt about telling me the weather.
+Write a prompt about telling me the weather in Cheyenne.
