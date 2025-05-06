@@ -4,14 +4,17 @@ Thesis statement: Clearly and concisely states the main idea of the essay (5 poi
 4-5: "Self-discovery is crucial for living a fulfilling life" or similar; addresses all aspects of self-discovery
 2-3: Some attempt to state thesis, but phraseology awkward or incomplete
 0-1: No clear thesis statement or majorly off-topic
+
 Supporting evidence: Evidence from personal experience, research, or examples is provided (10 points)
 8-10: Strong supporting evidence; effectively connects self-discovery to the importance of living a fulfilling life
 5-7: Some evidence; could be stronger/more relevant
 0-4: Missing or weak evidence
+
 Organization: Ideas are logically connected and in a coherent order (5 points)
 4-5: Clear introduction, body, and conclusion with smooth transitions
 2-3: Somewhat effective organization; may need better transitions
 0-1: Disorganized or confusing structure
+
 Specificity: The essay provides distinct and detailed examples of self-discovery (10 points)
 8-10: Strong specific examples, including anecdotes and real-life applications
 5-7: Some good examples; may be weak or incomplete
@@ -22,6 +25,7 @@ Grammar: Free of major grammatical errors (10 points)
 9-10: Errors are minor, and writing is mostly clear
 5-8: Some grammar mistakes distract from the message; rewriting necessary
 0-4: Grammatical errors too numerous/serious
+
 Style: The essay demonstrates clear, concise writing style (5 points)
 4-5: Writing is free-flowing and professional
 2-3: May be some awkward phrasing or transitions; still readable
@@ -32,6 +36,7 @@ Format: Meets basic formatting guidelines (e.g., indentation, margins) (5 points
 4-5: Properly formatted with clear headings and paragraphs
 2-3: Somewhat disorganized or incomplete formatting
 0-1: Misformatted with no proper citations or abstract
+
 Length: Essay meets the word count target (10 points)
 9-10: Meets length requirements; effectively communicates ideas within space allowed
 5-8: May be too long/short; concise explanation essential
@@ -40,7 +45,7 @@ Score: 100
 
 Possible grades based on the above rubric would be:
 
-A: 80-90 (Excellent essay)
-B: 70-79 (Good effort with issues that need improvement)
-C: 60-69 (Fair writing, showing basic competence)
-D: Below 60 (Deficient in several areas)
+A: 80-90% (Excellent essay)
+B: 70-79% (Good effort with issues that need improvement)
+C: 60-69% (Fair writing, showing basic competence)
+D: Below 60% (Deficient in several areas)
